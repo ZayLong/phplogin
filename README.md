@@ -6,7 +6,7 @@ A quick example demonstrating a login/register system using PHP/SQL
 
 Run this sQL script to build the database.
 
-
+```sql
 CREATE DATABASE lr;
 
 CREATE TABLE users
@@ -20,5 +20,5 @@ email varchar(255),
 active int(11) DEFAULT '1'
 PRIMARY KEY (user_id)
 )
-
+```
 that should be it.
